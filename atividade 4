@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Declaração das variáveis para armazenar os valores
+    float valor1, valor2;
+
+    // Solicitar ao usuário que insira os dois valores
+    cout << "Digite o primeiro valor: ";
+    cin >> valor1;
+    cout << "Digite o segundo valor: ";
+    cin >> valor2;
+
+    // Calcular a diferença entre os dois valores
+    float diferenca = valor1 - valor2;
+
+    // Exibir o resultado
+    cout << "A diferenca entre os dois valores e: " << diferenca << endl;
+
+    return 0;
+}
